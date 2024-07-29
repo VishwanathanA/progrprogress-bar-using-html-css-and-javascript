@@ -1,0 +1,59 @@
+body {
+    padding: 150px 500px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+   
+}
+.progress {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 4px;
+    background-color:green;
+
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.circle.active {
+    background-color:green;
+    color: #fff;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #3437db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.all{
+    background-color: #7fc1f7;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
